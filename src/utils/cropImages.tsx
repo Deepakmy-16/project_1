@@ -1,0 +1,131 @@
+// Comprehensive crop and commodity images library
+export const cropImages: { [key: string]: string } = {
+  // Cereals & Grains
+  wheat: "https://images.unsplash.com/photo-1673200674067-1923f239194d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGVhdCUyMGNyb3AlMjBncmFpbnxlbnwxfHx8fDE3NjQxNTAwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  rice: "https://images.unsplash.com/photo-1603106116068-02fc27fe5131?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyaWNlJTIwcGFkZHklMjBjcm9wfGVufDF8fHx8MTc2NDE1MDA0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+  "basmati-rice": "https://pramoda.co.in/wp-content/uploads/2018/12/Basmati-Rice-1.jpg",
+  maize: "https://images.unsplash.com/photo-1649251037465-72c9d378acb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3JuJTIwbWFpemUlMjBmaWVsZHxlbnwxfHx8fDE3NjQwODcxNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  corn: "https://images.unsplash.com/photo-1649251037465-72c9d378acb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3JuJTIwbWFpemUlMjBmaWVsZHxlbnwxfHx8fDE3NjQwODcxNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  jowar: "https://images.unsplash.com/photo-1714469914199-14ab69eae5f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb3JnaHVtJTIwZ3JhaW58ZW58MXx8fHwxNzY0MTUwNjA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  bajra: "https://images.unsplash.com/photo-1761724170883-b65f02738fbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaWxsZXQlMjBncmFpbnxlbnwxfHx8fDE3NjQxNTA2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  barley: "https://images.unsplash.com/photo-1557735710-67da6393ff2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJsZXklMjBncmFpbnxlbnwxfHx8fDE3NjQxNTA2MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  ragi: "https://naturallyyours.in/cdn/shop/articles/ragi1.jpg?v=1659348826",
+  
+  // Pulses & Legumes
+  arhar: "https://5.imimg.com/data5/OW/AT/MY-8481118/arhar-dal.jpg",
+  moong: "https://healthymiller.com/cdn/shop/files/Moong_dhuliPulse.png?v=1693903186",
+  urad: "https://orgfarm.store/cdn/shop/files/urad_split.png?v=1722070188&width=1214",
+  masoor: "https://gonefarmers.com/cdn/shop/products/image_cc51f8bf-501f-4ae7-a546-3a579299ca9d_1024x1024@2x.jpg?v=1596652176",
+  chana: "https://thewholesaler.in/cdn/shop/products/Roasted-Chana-Crispy-Indian-Chickpeas-Bhuna-Chana-Cicer-arietinum-TheWholesalerCo-35843830.jpg",
+  chickpea: "https://images.unsplash.com/photo-1677887736557-a461460caaf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlja3BlYSUyMGxlZ3VtZXxlbnwxfHx8fDE3NjQwNzE0MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  kulthi: "https://shophomeo.com/cdn/shop/products/kulthi-dal.jpg?v=1650176324",
+  rajma: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGiPG70TejhfAVedit_65oUqPC3Gw9ki9QQ&s",
+  lobia: "https://toneop.s3.ap-south-1.amazonaws.com/blog_images/1671873749.jpg",
+  "green-peas": "https://m.media-amazon.com/images/I/612O377T9FL._AC_UF894,1000_QL80_.jpg",
+  lentils: "https://images.unsplash.com/photo-1633857462464-013f740de54b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsZW50aWxzJTIwZGFsfGVufDF8fHx8MTc2NDE1MDYwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+  
+  // Oilseeds
+  groundnut: "https://images.unsplash.com/photo-1694654359031-e2db00bd0e93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZWFudXQlMjBncm91bmRudXR8ZW58MXx8fHwxNzY0MTUwNjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  mustard: "https://images.unsplash.com/photo-1701188543419-f2e932565056?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXN0YXJkJTIwc2VlZHN8ZW58MXx8fHwxNzY0MTUwNjA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  soybean: "https://5.imimg.com/data5/ZR/AN/TA/SELLER-19153449/soybean-seeds.jpg",
+  sunflower: "https://images.unsplash.com/photo-1760359505837-a17f7fa884b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdW5mbG93ZXIlMjBjcm9wfGVufDF8fHx8MTc2NDE1MDYwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+  sesame: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfEYrjlDqdAKwOdEuePlzsqcn6arNxXTE-tg&s",
+  safflower: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Safflower.jpg",
+  linseed: "https://5.imimg.com/data5/SELLER/Default/2022/9/SI/ZQ/OT/139751067/flax-seeds-linseeds.jpg",
+  castor: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqkDgRpjGc_DWB7mwke_o-EEmbCD7UBwozNA&s",
+  niger: "https://m.media-amazon.com/images/I/51QHDysyRHL._AC_UF1000,1000_QL80_.jpg",
+  coconut: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-bqrl1U3YhTW4AwZNYDCgTTnJ3iOcvuiULg&s",
+  
+  // Vegetables
+  potato: "https://images.unsplash.com/photo-1744659751904-3b2e5c095323?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3RhdG8lMjB2ZWdldGFibGV8ZW58MXx8fHwxNzY0MTUwNTk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  onion: "https://images.unsplash.com/photo-1612679300857-0b7600449e68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmlvbiUyMHZlZ2V0YWJsZXxlbnwxfHx8fDE3NjQxNTA1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  tomato: "https://images.unsplash.com/photo-1621332606136-7e66f02dade1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0b21hdG8lMjB2ZWdldGFibGV8ZW58MXx8fHwxNzY0MTUwNTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  brinjal: "https://images.unsplash.com/photo-1605197378540-10ebaf6999e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmluamFsJTIwZWdncGxhbnR8ZW58MXx8fHwxNzY0MjE2ODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  cabbage: "https://images.unsplash.com/photo-1730815046052-75a1b90117e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYWJiYWdlJTIwdmVnZXRhYmxlfGVufDF8fHx8MTc2NDE1MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+  cauliflower: "https://images.unsplash.com/photo-1593565288582-e7caf65c5a96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXVsaWZsb3dlciUyMHZlZ2V0YWJsZXxlbnwxfHx8fDE3NjQyMTY4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  capsicum: "https://images.unsplash.com/photo-1707857204225-b526447975ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWQlMjBjaGlsaSUyMHBlcHBlcnxlbnwxfHx8fDE3NjQwODU5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  okra: "https://images.unsplash.com/photo-1558408525-1092038389ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxva3JhJTIwdmVnZXRhYmxlfGVufDF8fHx8MTc2NDIxNjgyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "bottle-gourd": "https://rukminim2.flixcart.com/image/480/640/xif0q/plant-seed/j/d/y/100-bottle-gourd-long-lauki-25gm-knessin-original-imah2apj6kd3t56z.jpeg?q=90",
+  "bitter-gourd": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDMU14v-kSc1M3e0p8rL6EdetdOZNrUSQ0Aw&s",
+  "ridge-gourd": "https://rukminim2.flixcart.com/image/704/844/kc3p30w0/plant-seed/w/z/h/25-ridge-gourd-seed-greenery-hub-original-imaftas9cmhy8fbk.jpeg?q=90&crop=false",
+  pumpkin: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnZH9PQJXmLiouz1B5aY_8mosUJK4ZwAxVYA&s",
+  cucumber: "https://images.unsplash.com/photo-1730202252661-bd76bd26378f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdWN1bWJlciUyMHZlZ2V0YWJsZXxlbnwxfHx8fDE3NjQyMTY3MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  carrot: "https://images.unsplash.com/photo-1737402710058-0ce100f79b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXJyb3QlMjB2ZWdldGFibGV8ZW58MXx8fHwxNzY0MTI1NDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  radish: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Jb17rSGKngFrWLtRyVNg0EjcUVNKYWBxzg&s",
+  beetroot: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKE2uRnre8_xM7xsYy4U6_EvxcD7WGhNySg&s",
+  spinach: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzTY4sJaMijBIpV9V1E5MtKbIRhG8ohuKOGg&s",
+  "coriander-leaves": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyZUZrewyHDyKZyGphNZ0lNEiItTeK0IUUSk5eRLRI9DTQhc3VM70a_t4giQEgYq1OxtaMi-1xEjr20zrPr3Us3eH2dz-lNg-1rBtSNIU&s=10",
+  mint: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RIZF6R3CLtN1V9HnUhxiuwwID7IJ6wUbWg&s",
+  fenugreek: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsuTn8UWe0nOUNFnoJ5KtoCSnMyGH-WfNJQ&s",
+  drumstick: "https://i.timesnowhindi.com/stories/Sehjan_ke_fayde.jpg",
+  "cluster-beans": "https://rukminim2.flixcart.com/image/480/640/xif0q/plant-seed/z/s/p/90-gwar-phali-cluster-beans-hybrid-seeds-g5160-aywal-original-imagsunhzhy5628t.jpeg?q=90",
+  "french-beans": "https://syncwithnature.in/wp-content/uploads/2020/09/greenbeans.png",
+  "green-chilli": "https://images.unsplash.com/photo-1707857204225-b526447975ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWQlMjBjaGlsaSUyMHBlcHBlcnxlbnwxfHx8fDE3NjQwODU5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  
+  // Fruits
+  mango: "https://images.unsplash.com/photo-1669207334420-66d0e3450283?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMGZydWl0fGVufDF8fHx8MTc2NDA4ODk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+  banana: "https://images.unsplash.com/photo-1603833665858-e61d17a86224?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBmcnVpdHxlbnwxfHx8fDE3NjQyMDQ3MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  apple: "https://www.jiomart.com/images/product/original/590004487/apple-indian-6-pcs-pack-approx-750-g-950-g-product-images-o590004487-p590004487-0-202501031744.jpg?im=Resize=(420,420)",
+  grapes: "https://images.unsplash.com/photo-1718182108054-dac788155eea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFwZXMlMjBmcnVpdHxlbnwxfHx8fDE3NjQxOTY3OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  orange: "https://images.unsplash.com/photo-1615147438600-2ef96072abd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBjaXRydXN8ZW58MXx8fHwxNzY0MjE2ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  papaya: "https://images.unsplash.com/photo-1686058118233-3d66214339b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYXBheWElMjBmcnVpdHxlbnwxfHx8fDE3NjQyMTY4MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  watermelon: "https://images.unsplash.com/photo-1630336549754-769d0b56c94c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YXRlcm1lbG9uJTIwZnJ1aXR8ZW58MXx8fHwxNzY0MTk2ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  muskmelon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcResCEeWvMLnqq5Pmj67feUJ_OaIlz-AmM3Hw&s",
+  pomegranate: "https://images.unsplash.com/photo-1541344999736-83eca272f6fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb21lZ3JhbmF0ZSUyMGZydWl0fGVufDF8fHx8MTc2NDE5Mjg5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+  guava: "https://fiercefruit.com/cdn/shop/articles/Whole-and-cut-pink-guava-fruits_5173x.jpg?v=1761365388",
+  pineapple: "https://m.media-amazon.com/images/I/71bNsWlkyeL.jpg",
+  litchi: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICUuOXhOjG92nr0VROBF8SiY8Y76ibn42Wg&s",
+  "custard-apple": "https://www.saharanpurnursery.in/cdn/shop/files/custardapplegreen_700x700.jpg?v=1718608961",
+  sapota: "https://froovella.com/cdn/shop/products/sapota_ktbzqwpmsvwa857r_600x.jpg?v=1663924570",
+  
+  // Spices
+  turmeric: "https://images.unsplash.com/photo-1698556735172-1b5b3cd9d2ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0dXJtZXJpYyUyMHNwaWNlfGVufDF8fHx8MTc2NDA4ODkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "dry-chilli": "https://images.unsplash.com/photo-1707857204225-b526447975ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWQlMjBjaGlsaSUyMHBlcHBlcnxlbnwxfHx8fDE3NjQwODU5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  chili: "https://images.unsplash.com/photo-1707857204225-b526447975ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWQlMjBjaGlsaSUyMHBlcHBlcnxlbnwxfHx8fDE3NjQwODU5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  ginger: "https://images.unsplash.com/photo-1630623093145-f606591c2546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnaW5nZXIlMjByb290fGVufDF8fHx8MTc2NDA3MjQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  garlic: "https://images.unsplash.com/photo-1652209766128-4beb2d6bc903?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYXJsaWMlMjBidWxifGVufDF8fHx8MTc2NDA4ODk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+  "coriander-seed": "https://images.unsplash.com/photo-1608797179072-4268dd68eff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3JpYW5kZXIlMjBzZWVkc3xlbnwxfHx8fDE3NjQxNTA2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  coriander: "https://images.unsplash.com/photo-1608797179072-4268dd68eff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3JpYW5kZXIlMjBzZWVkc3xlbnwxfHx8fDE3NjQxNTA2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  cumin: "https://images.unsplash.com/photo-1600791102844-208e695205f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdW1pbiUyMHNlZWRzJTIwc3BpY2V8ZW58MXx8fHwxNzY0MTE0MTc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "black-pepper": "https://images.unsplash.com/photo-1649951806971-ad0e00408773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHBlcHBlciUyMHNwaWNlfGVufDF8fHx8MTc2NDIxNjgzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+  cardamom: "https://images.unsplash.com/photo-1623307645781-90cd6ee11dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXJkYW1vbSUyMHNwaWNlfGVufDF8fHx8MTc2NDIxNjgzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+  clove: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsGLLtEzfhuiiuGqm9F92s5fLsUq7IgP4lWQ&s",
+  cinnamon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfdk55M3U7YNcrKv8QTtcLacfqDpJL5BA0w&s",
+  "fenugreek-seed": "https://d3kgrlupo77sg7.cloudfront.net/media/chococoorgspice.com/images/products/organic-methi-dana-fenugreek-seeds-200-gm-coorg-spices.20220909011538.webp",
+  fennel: "https://vibrantliving.in/cdn/shop/files/FennelSeeds.png?v=1731060016&width=2048",
+  ajwain: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCLRv6yhf30nUpSLcU-iUSpchsdCjwokCXkQ&s",
+  nutmeg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTxXEWJSrxupYQhJY4v7GB53UohOqfIqPYtQ&s",
+  "dry-ginger": "https://images.unsplash.com/photo-1630623093145-f606591c2546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnaW5nZXIlMjByb290fGVufDF8fHx8MTc2NDA3MjQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  tamarind: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Wx92S4KZNWYOPlDF2VpSscRfZ4BFe18UKw&s",
+  
+  // Cash Crops
+  cotton: "https://images.unsplash.com/photo-1762112464284-db2e871a9f4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3R0b24lMjBwbGFudCUyMGNyb3B8ZW58MXx8fHwxNzY0MTUwMDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  sugarcane: "https://images.unsplash.com/photo-1650192388648-65800ec59fee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdWdhcmNhbmUlMjBmaWVsZHxlbnwxfHx8fDE3NjQwNzgyMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  jute: "https://images.unsplash.com/photo-1673200674067-1923f239194d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGVhdCUyMGNyb3AlMjBncmFpbnxlbnwxfHx8fDE3NjQxNTAwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  tobacco: "https://images.unsplash.com/photo-1608797179072-4268dd68eff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3JpYW5kZXIlMjBzZWVkc3xlbnwxfHx8fDE3NjQxNTA2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  rubber: "https://i.ytimg.com/vi/L5jzoJGOALI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAzc67I-TXuM7SeHCeZoTuCk60jDA",
+  tea: "https://images.unsplash.com/photo-1491497895121-1334fc14d8c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWElMjBwbGFudGF0aW9ufGVufDF8fHx8MTc2NDA4MTk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+  coffee: "https://images.unsplash.com/photo-1675306408031-a9aad9f23308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBiZWFuc3xlbnwxfHx8fDE3NjQwODEwOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  arecanut: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGUdmbRBY_-lmSTSD6cJainMRNlSbhpd9HWA&s",
+  
+  // Animal Products
+  milk: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSWyUS8yQecDpLRV_XibgpV1M8p8ZQrp1vA&s",
+  egg: "https://images.unsplash.com/photo-1506976785307-8732e854ad03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlZ2dzfGVufDF8fHx8MTc2NDE2MjY2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+  chicken: "https://images.unsplash.com/photo-1587593810167-a84920ea0781?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwbWVhdHxlbnwxfHx8fDE3NjQwOTk2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  mutton: "https://i2.wp.com/www.freshtohome.com/blog/wp-content/uploads/2024/08/goat-curry-cut.jpg?fit=812%2C542&ssl=1",
+  fish: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPnrzN8R-s56hCKuYMZ7ZGo0BUXpHwYIyIQg&s",
+  prawn: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHozELZEpayLi8t7kTyKG59xWY5Jvr4FLNFg&s",
+  ghee: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-LQlFhj-OEsCPbte71K0rUSziMHw12Hpayw&s",
+  honey: "https://m.media-amazon.com/images/I/61t3CUyXyeL.jpg",
+  
+  // Processed
+  sugar: "https://lirp.cdn-website.com/cbf48001/dms3rep/multi/opt/shutterstock_2463705563-1920w.jpg",
+  jaggery: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1hUoWEGU_D1dzk5XIAYGQD_Y0JFw8835DQ&s",
+  "wheat-flour": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06kIyAkcD4NVnhOu9g3mrnZ-NCVw40Ss7MQ&s",
+  besan: "https://nuttyyogi.com/cdn/shop/products/HealthyOrganic_Besan_1080x_cec1c8a6-8fb2-421c-a135-29858e0b0f6e.jpg?v=1606373711",
+};
+
+// Get image URL for a commodity
+export function getCropImage(cropId: string): string {
+  return cropImages[cropId] || cropImages["wheat"]; // Fallback to wheat image
+}
